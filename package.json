@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/main.js",
   "scripts": {
-    "start": "node src/main.js", 
+    "start": "node src/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/jeffmant/clean-node-js-api/issues"
   },
-  "homepage": "https://github.com/jeffmant/clean-node-js-api#readme"
+  "homepage": "https://github.com/jeffmant/clean-node-js-api#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^4.2.1"
+  }
 }
