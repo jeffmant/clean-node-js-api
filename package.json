@@ -5,7 +5,8 @@
   "main": "src/main.js",
   "scripts": {
     "start": "node src/main.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,8 @@
   "homepage": "https://github.com/jeffmant/clean-node-js-api#readme",
   "devDependencies": {
     "git-commit-msg-linter": "^4.2.1",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
     "standard": "^17.0.0"
   }
 }
