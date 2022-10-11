@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/jeffmant/clean-node-js-api#readme",
   "devDependencies": {
-    "git-commit-msg-linter": "^4.2.1"
+    "git-commit-msg-linter": "^4.2.1",
+    "standard": "^17.0.0"
   }
 }
